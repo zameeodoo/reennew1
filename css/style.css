@@ -1,0 +1,269 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+ font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+
+}
+.header{
+	widows: 100%;
+}
+/*top menu CSS  start*/
+.top-menu{
+	width: 100%;
+	padding: 10px 0px;
+	background: #f7f7fa;
+}
+.top-menu .info{
+	margin: 0px;
+	padding: 0px;
+
+}
+.top-menu .info li{
+	list-style: none;
+	display: inline-block;
+}
+.top-menu .info li a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #506a85;
+	margin: 0px 15px 0px 0px;
+}
+.top-menu .info li a .fa{
+	margin-right: 5px;
+}
+
+
+.top-menu .social-icons{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+
+}
+.top-menu .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.top-menu .social-icons li a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #506a85;
+	margin: 0px 0px 0px 15px;
+}
+.top-menu .social-icons li a:hover, .top-menu .social-icons li a:focus{
+	color: #00bc9c;
+	transition: 1s;
+}
+.top-menu .info li a:hover, .top-menu .info li a:focus{
+	color: #00bc9c;
+	transition: 1s;
+}
+
+
+/*Top menu CSS  End*/
+
+/*Main menu CSS  Star*/
+
+.main-menu{
+	width: 100%;
+	padding: 15px 0px;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #506a85;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+	color: #00bc9c;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+	color: #00bc9c;
+}
+.main-menu .fa-search{
+	color: #506a85;
+	font-size: 14px;
+}
+
+/*Main menu CSS  End*/
+/*Slider  CSS  start*/
+
+.slider{
+	width: 100%;
+}
+.slider .carousel-one{
+	bottom: 30%;
+}
+.slider .carousel-caption h2{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 64px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.slider .carousel-caption p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #a3b1bf;
+	margin: 0px 0px 55px;
+}
+
+.slider .btn-success{
+	padding: 18px 35px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	background: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+.slider .btn-success:hover, .slider .btn-success:focus{
+	color: #fff;
+	background: transparent;
+	border: 1px solid #00bc9c;
+}
+.slider .text-right{
+	text-align: right;
+	bottom: 25%;
+}
+.slider .text-left{
+	text-align: left;
+	bottom: 25%;
+}
+.slider .text-left h2{
+    background: #506a85;
+    display: inline-block;
+    padding: 10px 50px 10px 20px;
+    
+    
+}
+.slider .text-left h3{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 64px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    background: #506a85;
+    display: inline-block;
+    padding: 10px 50px 10px 20px;
+
+}
+
+.slider .text-left p{
+	color: #506a85;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px;
+	margin-top: 12px;
+
+}
+
+
+.slider .text-right-just{
+	text-align: right;
+	bottom: 35%;
+}
+.slider .text-right-just h2{
+    background: #506a85;
+    display: inline-block;
+    padding: 10px 20px 10px 70px;
+    
+    
+}
+.slider .text-right-just h3{
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 64px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    background: #506a85;
+    display: inline-block;
+    padding: 10px 20px 10px 70px;
+
+}
+
+.slider .text-right-just p{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px;
+	margin-top: 12px;
+
+}
+.slider .text-center{
+	bottom: 40%;
+}
+
+
+
+
+/*Slider  CSS  End*/
+
+/*Features  CSS  Start*/
+  
+
+  .features{
+  	width: 100%;
+  	padding: 80px 0px;
+  }
+  .features .title{
+  	width: 100%;
+  	padding: 0px 0px 60px;
+  	text-align: center;
+  }
+.features .title h1{
+     font-size: 58px;
+     font-weight: 600;
+     line-height: 68px;
+     color:#506a85 ;
+     text-transform: capitalize;
+     letter-spacing: 2px;
+  }
+.features .title p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #a3b1bf;
+}
+.features .card{
+	width: 100%;
+	border: 0px;
+}
+.features .card .card-body{
+	flex: 1 1 auto;
+	padding: 0px 25px;
+}
+.features .card .card-body .card-title{
+     font-size: 22px;
+     font-weight: 600;
+     line-height: 32px;
+     color:#506a85 ;
+     text-transform: capitalize;
+     
+}
+.features .card .card-body .card-text{
+	font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #a3b1bf;
+}
+/*Features  CSS  End*/
